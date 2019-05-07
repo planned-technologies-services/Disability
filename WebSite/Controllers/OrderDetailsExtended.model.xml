@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Order Details Extended" alias="OrderDetailsExtended" created="2017-07-03T06:33:19" modified="2017-07-03T06:33:19" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="OrderID" fieldName="OrderID" label="Order ID" />
+    <column name="ProductID" fieldName="ProductID" label="Product ID" />
+    <column name="ProductName" fieldName="ProductName" label="Product Name" />
+    <column name="UnitPrice" fieldName="UnitPrice" label="Unit Price" format="c" />
+    <column name="Quantity" fieldName="Quantity" label="Quantity" />
+    <column name="Discount" fieldName="Discount" label="Discount" />
+    <column name="ExtendedPrice" fieldName="ExtendedPrice" label="Extended Price" format="c" />
+  </columns>
+</dataModel>

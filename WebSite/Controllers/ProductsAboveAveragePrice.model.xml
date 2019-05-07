@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Products Above Average Price" alias="ProductsAboveAveragePrice" created="2017-07-03T06:33:15" modified="2017-07-03T06:33:15" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="ProductName" fieldName="ProductName" label="Product Name" />
+    <column name="UnitPrice" fieldName="UnitPrice" label="Unit Price" format="c" />
+  </columns>
+</dataModel>

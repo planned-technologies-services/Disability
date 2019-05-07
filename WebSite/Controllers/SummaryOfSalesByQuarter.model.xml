@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Summary of Sales by Quarter" alias="SummaryofSalesbyQuarter" created="2017-07-03T06:33:12" modified="2017-07-03T06:33:12" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="ShippedDate" fieldName="ShippedDate" label="Shipped Date" format="g" />
+    <column name="OrderID" fieldName="OrderID" label="Order ID" />
+    <column name="Subtotal" fieldName="Subtotal" label="Subtotal" format="c" />
+  </columns>
+</dataModel>

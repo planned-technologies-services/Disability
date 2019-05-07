@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Current Product List" alias="CurrentProductList" created="2017-07-03T06:33:25" modified="2017-07-03T06:33:25" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="ProductID" fieldName="ProductID" label="Product ID" />
+    <column name="ProductName" fieldName="ProductName" label="Product Name" />
+  </columns>
+</dataModel>

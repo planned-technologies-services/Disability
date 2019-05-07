@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="EmployeeTerritories" alias="EmployeeTerritories" created="2017-07-03T06:33:22" modified="2017-07-03T06:33:22" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys>
+    <foreignKey id="Employee" parentTableSchema="dbo" parentTableName="Employees">
+      <foreignKeyColumn columnName="EmployeeID" parentColumnName="EmployeeID" />
+    </foreignKey>
+    <foreignKey id="Territory" parentTableSchema="dbo" parentTableName="Territories">
+      <foreignKeyColumn columnName="TerritoryID" parentColumnName="TerritoryID" />
+    </foreignKey>
+    <foreignKey id="TerritoryRegion" parentTableSchema="dbo" parentTableName="Region" baseForeignKey="Territory">
+      <foreignKeyColumn columnName="RegionID" parentColumnName="RegionID" />
+    </foreignKey>
+  </foreignKeys>
+  <columns>
+    <column name="EmployeeID" fieldName="EmployeeID" label="Employee ID" aliasColumnName="LastName" aliasForeignKey="Employee" />
+    <column name="LastName" fieldName="EmployeeLastName" label="Employee Last Name" foreignKey="Employee" />
+    <column name="TerritoryID" fieldName="TerritoryID" label="Territory ID" aliasColumnName="TerritoryDescription" aliasForeignKey="Territory" />
+    <column name="TerritoryDescription" fieldName="TerritoryDescription" label="Territory Description" foreignKey="Territory" />
+    <column name="RegionDescription" fieldName="TerritoryRegionDescription" label="Territory Region Description" foreignKey="TerritoryRegion" />
+  </columns>
+</dataModel>

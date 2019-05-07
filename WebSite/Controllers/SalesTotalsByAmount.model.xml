@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Sales Totals by Amount" alias="SalesTotalsbyAmount" created="2017-07-03T06:33:13" modified="2017-07-03T06:33:13" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="SaleAmount" fieldName="SaleAmount" label="Sale Amount" format="c" />
+    <column name="OrderID" fieldName="OrderID" label="Order ID" />
+    <column name="CompanyName" fieldName="CompanyName" label="Company Name" />
+    <column name="ShippedDate" fieldName="ShippedDate" label="Shipped Date" format="g" />
+  </columns>
+</dataModel>

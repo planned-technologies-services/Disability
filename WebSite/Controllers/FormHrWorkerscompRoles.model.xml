@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Form_HR_WorkersComp_Roles" alias="Form_HR_WorkersComp_Roles" created="2017-07-03T06:33:21" modified="2017-07-03T06:33:21" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="wcrid" fieldName="Wcrid" label="Wcrid" />
+    <column name="rolename" fieldName="Rolename" label="Rolename" />
+  </columns>
+</dataModel>

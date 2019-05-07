@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="^SiteHome^Home^SiteHome^" description="" url="~/index.html">
+    <siteMapNode title="^HomePath^Home^HomePath^" description="^HomeDesc^Application home page^HomeDesc^" url="~/pages/home" cssClass="Wide" />
+    <siteMapNode title="Territories" description="View Territories" url="~/pages/territories" />
+    <siteMapNode title="Summary Of Sales By Year" description="View Summary Of Sales By Year" url="~/pages/summary-of-sales-by-year" />
+    <siteMapNode title="Suppliers" description="View Suppliers" url="~/pages/suppliers" />
+    <siteMapNode title="Shippers" description="View Shippers" url="~/pages/shippers" />
+    <siteMapNode title="Summary Of Sales By Quarter" description="View Summary Of Sales By Quarter" url="~/pages/summary-of-sales-by-quarter" />
+    <siteMapNode title="Sales By Category" description="View Sales By Category" url="~/pages/sales-by-category" />
+    <siteMapNode title="Sales Totals By Amount" description="View Sales Totals By Amount" url="~/pages/sales-totals-by-amount" />
+    <siteMapNode title="Quarterly Orders" description="View Quarterly Orders" url="~/pages/quarterly-orders" />
+    <siteMapNode title="Region" description="View Region" url="~/pages/region" />
+    <siteMapNode title="Products Above Average Price" description="View Products Above Average Price" url="~/pages/products-above-average-price" />
+    <siteMapNode title="Products By Category" description="View Products By Category" url="~/pages/products-by-category" />
+    <siteMapNode title="Products" description="View Products" url="~/pages/products" />
+    <siteMapNode title="Orders Qry" description="View Orders Qry" url="~/pages/orders-qry" />
+    <siteMapNode title="Product Sales For1997" description="View Product Sales For1997" url="~/pages/product-sales-for-1997" />
+    <siteMapNode title="Order Subtotals" description="View Order Subtotals" url="~/pages/order-subtotals" />
+    <siteMapNode title="Orders" description="View Orders" url="~/pages/orders" />
+    <siteMapNode title="Order Details" description="View Order Details" url="~/pages/order-details" />
+    <siteMapNode title="Order Details Extended" description="View Order Details Extended" url="~/pages/order-details-extended" />
+    <siteMapNode title="Form Hr Workerscomp Users" description="View Form Hr Workerscomp Users" url="~/pages/form-hr-workerscomp-users" />
+    <siteMapNode title="Invoices" description="View Invoices" url="~/pages/invoices" />
+    <siteMapNode title="Form Hr Workerscomp Roles" description="View Form Hr Workerscomp Roles" url="~/pages/form-hr-workerscomp-roles" />
+    <siteMapNode title="Form Hr Workerscomp Userroles" description="View Form Hr Workerscomp Userroles" url="~/pages/form-hr-workerscomp-userroles" />
+    <siteMapNode title="Employees" description="View Employees" url="~/pages/employees" />
+    <siteMapNode title="Employee Territories" description="View Employee Territories" url="~/pages/employee-territories" />
+    <siteMapNode title="Customer Demographics" description="View Customer Demographics" url="~/pages/customer-demographics" />
+    <siteMapNode title="Customers" description="View Customers" url="~/pages/customers" />
+    <siteMapNode title="Customer Demo" description="View Customer Demo" url="~/pages/customer-demo" />
+    <siteMapNode title="Current Product List" description="View Current Product List" url="~/pages/current-product-list" />
+    <siteMapNode title="Customer And Suppliers By City" description="View Customer And Suppliers By City" url="~/pages/customer-and-suppliers-by-city" />
+    <siteMapNode title="Categories" description="View Categories" url="~/pages/categories" />
+    <siteMapNode title="Category Sales For1997" description="View Category Sales For1997" url="~/pages/category-sales-for-1997" />
+    <siteMapNode title="Alphabetical List Of Products" description="View Alphabetical List Of Products" url="~/pages/alphabetical-list-of-products" />
+  </siteMapNode>
+</siteMap>

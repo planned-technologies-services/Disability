@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Orders Qry" alias="OrdersQry" created="2017-07-03T06:33:17" modified="2017-07-03T06:33:17" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="OrderID" fieldName="OrderID" label="Order ID" />
+    <column name="CustomerID" fieldName="CustomerID" label="Customer ID" />
+    <column name="EmployeeID" fieldName="EmployeeID" label="Employee ID" />
+    <column name="OrderDate" fieldName="OrderDate" label="Order Date" format="g" />
+    <column name="RequiredDate" fieldName="RequiredDate" label="Required Date" format="g" />
+    <column name="ShippedDate" fieldName="ShippedDate" label="Shipped Date" format="g" />
+    <column name="ShipVia" fieldName="ShipVia" label="Ship Via" />
+    <column name="Freight" fieldName="Freight" label="Freight" format="c" />
+    <column name="ShipName" fieldName="ShipName" label="Ship Name" />
+    <column name="ShipAddress" fieldName="ShipAddress" label="Ship Address" />
+    <column name="ShipCity" fieldName="ShipCity" label="Ship City" />
+    <column name="ShipRegion" fieldName="ShipRegion" label="Ship Region" />
+    <column name="ShipPostalCode" fieldName="ShipPostalCode" label="Ship Postal Code" />
+    <column name="ShipCountry" fieldName="ShipCountry" label="Ship Country" />
+    <column name="CompanyName" fieldName="CompanyName" label="Company Name" />
+    <column name="Address" fieldName="Address" label="Address" />
+    <column name="City" fieldName="City" label="City" />
+    <column name="Region" fieldName="Region" label="Region" />
+    <column name="PostalCode" fieldName="PostalCode" label="Postal Code" />
+    <column name="Country" fieldName="Country" label="Country" />
+  </columns>
+</dataModel>

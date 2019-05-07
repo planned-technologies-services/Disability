@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Territories" alias="Territories" created="2017-07-03T06:33:10" modified="2017-07-03T06:33:10" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys>
+    <foreignKey id="Region" parentTableSchema="dbo" parentTableName="Region">
+      <foreignKeyColumn columnName="RegionID" parentColumnName="RegionID" />
+    </foreignKey>
+  </foreignKeys>
+  <columns>
+    <column name="TerritoryID" fieldName="TerritoryID" label="Territory ID" />
+    <column name="TerritoryDescription" fieldName="TerritoryDescription" label="Territory Description" />
+    <column name="RegionID" fieldName="RegionID" label="Region ID" aliasColumnName="RegionDescription" aliasForeignKey="Region" />
+    <column name="RegionDescription" fieldName="RegionDescription" label="Region Description" foreignKey="Region" />
+  </columns>
+</dataModel>

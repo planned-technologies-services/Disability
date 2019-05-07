@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Products by Category" alias="ProductsbyCategory" created="2017-07-03T06:33:15" modified="2017-07-03T06:33:15" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="CategoryName" fieldName="CategoryName" label="Category Name" />
+    <column name="ProductName" fieldName="ProductName" label="Product Name" />
+    <column name="QuantityPerUnit" fieldName="QuantityPerUnit" label="Quantity Per Unit" />
+    <column name="UnitsInStock" fieldName="UnitsInStock" label="Units In Stock" />
+    <column name="Discontinued" fieldName="Discontinued" label="Discontinued" />
+  </columns>
+</dataModel>

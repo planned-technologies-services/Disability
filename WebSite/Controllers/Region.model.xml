@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Region" alias="Region" created="2017-07-03T06:33:14" modified="2017-07-03T06:33:14" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="RegionID" fieldName="RegionID" label="Region ID" />
+    <column name="RegionDescription" fieldName="RegionDescription" label="Region Description" />
+  </columns>
+</dataModel>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Customer and Suppliers by City" alias="CustomerandSuppliersbyCity" created="2017-07-03T06:33:25" modified="2017-07-03T06:33:25" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="City" fieldName="City" label="City" />
+    <column name="CompanyName" fieldName="CompanyName" label="Company Name" />
+    <column name="ContactName" fieldName="ContactName" label="Contact Name" />
+    <column name="Relationship" fieldName="Relationship" label="Relationship" />
+  </columns>
+</dataModel>

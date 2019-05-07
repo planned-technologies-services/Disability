@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Alphabetical list of products" alias="Alphabeticallistofproducts" created="2017-07-03T06:33:27" modified="2017-07-03T06:33:27" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="ProductID" fieldName="ProductID" label="Product ID" />
+    <column name="ProductName" fieldName="ProductName" label="Product Name" />
+    <column name="SupplierID" fieldName="SupplierID" label="Supplier ID" />
+    <column name="CategoryID" fieldName="CategoryID" label="Category ID" />
+    <column name="QuantityPerUnit" fieldName="QuantityPerUnit" label="Quantity Per Unit" />
+    <column name="UnitPrice" fieldName="UnitPrice" label="Unit Price" format="c" />
+    <column name="UnitsInStock" fieldName="UnitsInStock" label="Units In Stock" />
+    <column name="UnitsOnOrder" fieldName="UnitsOnOrder" label="Units On Order" />
+    <column name="ReorderLevel" fieldName="ReorderLevel" label="Reorder Level" />
+    <column name="Discontinued" fieldName="Discontinued" label="Discontinued" />
+    <column name="CategoryName" fieldName="CategoryName" label="Category Name" />
+  </columns>
+</dataModel>

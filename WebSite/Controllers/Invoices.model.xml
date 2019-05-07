@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Invoices" alias="Invoices" created="2017-07-03T06:33:20" modified="2017-07-03T06:33:20" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="ShipName" fieldName="ShipName" label="Ship Name" />
+    <column name="ShipAddress" fieldName="ShipAddress" label="Ship Address" />
+    <column name="ShipCity" fieldName="ShipCity" label="Ship City" />
+    <column name="ShipRegion" fieldName="ShipRegion" label="Ship Region" />
+    <column name="ShipPostalCode" fieldName="ShipPostalCode" label="Ship Postal Code" />
+    <column name="ShipCountry" fieldName="ShipCountry" label="Ship Country" />
+    <column name="CustomerID" fieldName="CustomerID" label="Customer ID" />
+    <column name="CustomerName" fieldName="CustomerName" label="Customer Name" />
+    <column name="Address" fieldName="Address" label="Address" />
+    <column name="City" fieldName="City" label="City" />
+    <column name="Region" fieldName="Region" label="Region" />
+    <column name="PostalCode" fieldName="PostalCode" label="Postal Code" />
+    <column name="Country" fieldName="Country" label="Country" />
+    <column name="Salesperson" fieldName="Salesperson" label="Salesperson" />
+    <column name="OrderID" fieldName="OrderID" label="Order ID" />
+    <column name="OrderDate" fieldName="OrderDate" label="Order Date" format="g" />
+    <column name="RequiredDate" fieldName="RequiredDate" label="Required Date" format="g" />
+    <column name="ShippedDate" fieldName="ShippedDate" label="Shipped Date" format="g" />
+    <column name="ShipperName" fieldName="ShipperName" label="Shipper Name" />
+    <column name="ProductID" fieldName="ProductID" label="Product ID" />
+    <column name="ProductName" fieldName="ProductName" label="Product Name" />
+    <column name="UnitPrice" fieldName="UnitPrice" label="Unit Price" format="c" />
+    <column name="Quantity" fieldName="Quantity" label="Quantity" />
+    <column name="Discount" fieldName="Discount" label="Discount" />
+    <column name="ExtendedPrice" fieldName="ExtendedPrice" label="Extended Price" format="c" />
+    <column name="Freight" fieldName="Freight" label="Freight" format="c" />
+  </columns>
+</dataModel>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Form_HR_WorkersComp_UserRoles" alias="Form_HR_WorkersComp_UserRoles" created="2017-07-03T06:33:21" modified="2017-07-03T06:33:21" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys>
+    <foreignKey id="wcu" parentTableSchema="dbo" parentTableName="Form_HR_WorkersComp_Users">
+      <foreignKeyColumn columnName="wcuid" parentColumnName="wcuid" />
+    </foreignKey>
+    <foreignKey id="wcr" parentTableSchema="dbo" parentTableName="Form_HR_WorkersComp_Roles">
+      <foreignKeyColumn columnName="wcrid" parentColumnName="wcrid" />
+    </foreignKey>
+  </foreignKeys>
+  <columns>
+    <column name="wcurid" fieldName="Wcurid" label="Wcurid" />
+    <column name="wcuid" fieldName="Wcuid" label="Wcuid" aliasColumnName="username" aliasForeignKey="wcu" />
+    <column name="username" fieldName="Wcuusername" label="Wcuusername" foreignKey="wcu" />
+    <column name="wcrid" fieldName="Wcrid" label="Wcrid" aliasColumnName="rolename" aliasForeignKey="wcr" />
+    <column name="rolename" fieldName="Wcrrolename" label="Wcrrolename" foreignKey="wcr" />
+  </columns>
+</dataModel>
